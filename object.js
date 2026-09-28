@@ -28,10 +28,10 @@ function Angkot(sopir, trayek, penumpang, kas, bensin) {
     if (this.bensin < kebutuhanBensin) {
       alert(
         "Bensin tidak cukup! Butuh " +
-          kebutuhanBensin +
-          " bensin untuk membawa " +
-          (jumlahPenumpangAktif + 1) +
-          " penumpang.",
+        kebutuhanBensin +
+        " bensin untuk membawa " +
+        (jumlahPenumpangAktif + 1) +
+        " penumpang.",
       );
       return false;
     }
@@ -109,9 +109,9 @@ function Angkot(sopir, trayek, penumpang, kas, bensin) {
     this.bensin += liter;
     alert(
       "Berhasil isi bensin " +
-        liter +
-        " liter. Bensin sekarang: " +
-        this.bensin,
+      liter +
+      " liter. Bensin sekarang: " +
+      this.bensin,
     );
     return this.bensin;
   };
@@ -133,5 +133,5 @@ var angkot1 = new Angkot("amar", ["mtp", "bjb"], [], 0, 100);
 var angkot2 = new Angkot("malik", ["bjb", "mtp"], [], 0, 100);
 var angkot3 = new Angkot("sarofor", ["ngawwi", "pasarlma"], [], 0, 100);
 var angkot4 = new Angkot("alvi", ["isfi", "rumah"], [], 0, 20);
-var angkot5 = new angkot('nazriel,['rumah ke isfi'],[],0,20);
+var angkot5 = new angkot('nazriel,['rumah-ke-isfi'],[],0,20);
 
